@@ -24,8 +24,10 @@ namespace AdminLTE_ASPNetMVC
                         "~/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js",
                         "~/plugins/summernote/summernote-bs4.min.js",
                         "~/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js",
-                        "~/plugins/sweetalert2/sweetalert2.min.js",
+                        "~/plugins/sweetalert2/sweetalert2.min.js", //Modal & Alert
                         "~/plugins/toastr/toastr.min.js",
+                        "~/plugins/ion-rangeslider/js/ion.rangeSlider.min.js", //Slider
+                        "~/plugins/bootstrap-slider/bootstrap-slider.min.js",
                         "~/dist/js/adminlte.js",
                         "~/dist/js/demo.js"));
 
@@ -35,12 +37,14 @@ namespace AdminLTE_ASPNetMVC
                       "~/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css",
                       "~/plugins/icheck-bootstrap/icheck-bootstrap.min.css",
                       "~/plugins/jqvmap/jqvmap.min.css",
-                      "~/dist/css/adminlte.min.css",
                       "~/plugins/overlayScrollbars/css/OverlayScrollbars.min.css",
                       "~/plugins/daterangepicker/daterangepicker.css",
                       "~/plugins/summernote/summernote-bs4.min.css",
-                      "~/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css",
-                      "~/plugins/toastr/toastr.min.css"));
+                      "~/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css", //Modal & Alert
+                      "~/plugins/toastr/toastr.min.css",
+                      "~/plugins/ion-rangeslider/css/ion.rangeSlider.min.css", //Slider
+                      "~/plugins/bootstrap-slider/css/bootstrap-slider.min.css",
+                      "~/dist/css/adminlte.min.css"));
         }
     }
 }

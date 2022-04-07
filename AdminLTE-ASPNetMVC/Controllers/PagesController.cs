@@ -28,5 +28,10 @@ namespace AdminLTE_ASPNetMVC.Controllers
         {
             return View();
         }
+
+        public ActionResult Sliders()
+        {
+            return View();
+        }
     }
 }
